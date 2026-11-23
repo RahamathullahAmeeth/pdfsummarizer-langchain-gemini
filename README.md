@@ -39,7 +39,7 @@ metadata + analysis + quotes → Streamlit results → TXT / CSV downloads
 
 ## Setup (Windows / PowerShell)
 
-Requires Python 3.10+ (tested on 3.15).
+Requires Python 3.10+ (tested on Python 3.13.17; Python 3.15 currently lacks wheels for a transitive dependency).
 
 ```powershell
 python -m venv .venv

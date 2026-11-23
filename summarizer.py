@@ -45,7 +45,6 @@ class PDFSummarizer:
             name: _build_chains(
                 ChatGoogleGenerativeAI(
                     model=name,
-                    temperature=0.3,
                     google_api_key=api_key,
                 )
             )
